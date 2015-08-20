@@ -1,0 +1,15 @@
+<h5>{{ page.title }}</h5>
+
+{{ content }}
+
+{% if page.files %}
+  {% include files.html %}
+{% endif %}
+
+{% if page.dataset-local %}
+  {% include data.html %}
+{% endif %}
+
+{% if page.data %}
+  {% include data-firebase.html %}
+{% endif %}

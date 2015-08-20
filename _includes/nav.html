@@ -1,0 +1,9 @@
+<nav>
+  <ul class="nav nav-pills">
+    {% for link in site.navigation %}
+      <li role="presentation">
+        <a href="{{ link.url }}">{{link.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

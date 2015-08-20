@@ -1,0 +1,12 @@
+<div id="data">
+  Data!
+  <ul>
+    {% for datum in site.data[page.dataset-local] %}
+      <li>
+        <code>
+          {{ datum }}
+        </code>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

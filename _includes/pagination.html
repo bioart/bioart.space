@@ -1,0 +1,21 @@
+{% if paginator.total_pages > 1 %}
+  <nav>
+    <ul class="pager">
+      {% if paginator.next_page %}
+        <li class="previous">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            {% include icon.html icon="chevron-left" %} Older
+          </a>
+        </li>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+        <li class="next">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+            Newer {% include icon.html icon="chevron-right" %}
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+{% endif %}

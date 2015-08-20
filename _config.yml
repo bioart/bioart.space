@@ -1,0 +1,176 @@
+#                      _     _                  _
+#                     | |__ (_) ___   __ _ _ __| |_   ___ _ __   __ _  ___ ___
+#                     | '_ \| |/ _ \ / _` | '__| __| / __| '_ \ / _` |/ __/ _ \
+#                     | |_) | | (_) | (_| | |  | |_ _\__ \ |_) | (_| | (_|  __/
+#                     |_.__/|_|\___/ \__,_|_|   \__(_)___/ .__/ \__,_|\___\___|
+#                                                        |_|
+#
+#                                          website by Andrew Monks <a@monks.co>
+#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Website Display Settings
+#
+# Edit these without mercy
+
+# this can be hosted somewhere else (with 'http://') too, or just omitted.
+# It appears to the left of the `title`
+logo: /media/microscope.svg
+
+# this appears to the right of the `logo` on every page
+title: SAIC BioArt
+
+# this text is shown on the main page. You can use Markdown here.
+welcome: |
+  This is the [SAIC](http://saic.edu) BioArt department website.
+
+
+
+# how many recent posts to show on the main page
+paginate: 5
+
+# these links show up on every page
+navigation:
+  - url: /
+    title: Home
+  - url: /about
+    title: About
+  - url: /protocols
+    title: Protocols
+  - url: /artists
+    title: Artists
+  - url: /classes
+    title: Classes
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Build settings
+#
+# Edit these with caution!
+
+# this is the base url of the website
+url: "http://bioart.space"
+
+# this is used for data storage on various protocols
+firebase: https://bioart.firebaseio.com
+
+baseurl: ""
+markdown: redcarpet
+highlighter: pygments
+sass:
+  sass_dir: _sass
+
+# set permalinks
+defaults:
+  - scope:
+      type: pages
+    values:
+      layout: "default"
+  - scope:
+      type: protocols
+    values:
+      layout: "default"
+      permalink: /protocols/:title/
+  - scope:
+      type: artists
+    values:
+      layout: "default"
+      permalink: /artists/:title/
+
+# set up collections
+collections:
+  protocols:
+    output: true
+  artists:
+    output: true
+  pages:
+    output: true
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Prose settings
+#
+# Edit these with caution!
+
+prose:
+  rooturl: ''
+  siteurl: 'http://bioart.space/'
+  relativeLinks: 'http://bioart.space/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.html
+    - .gitkeep
+    - /_layouts
+    - /_includes
+    - /_sass
+    - /css
+    - /images
+    - .gitignore
+    - favicon.ico
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Guardfile
+    - links.jsonp
+
+  metadata:
+    _artists:
+      - name: "title"
+        field:
+          element: "text"
+          help: Shown at the top of the page, in links to the page, and in the title bar.
+          label: Artist Name
+          placeholder: Heather Dewey-Hagborg
+      - name: "slug"
+        field:
+          element: "text"
+          help: Becomes the part of this artist's url. This example would become http://bioart.space/artists/hdh
+          label: Slug
+          placeholder: hdh
+
+    _pages:
+      - name: "permalink"
+        field:
+          element: "Shown at the top of the page, in links to the page, and in the title bar."
+          help: Sort-of like slug. Instead of specifying a single url-part, you're specifying the whole url after bioart.space. The permalink must end in either .html or a trailing slash (/).
+          label: Permalink
+          placeholder: page-name
+      - name: "permalink"
+        field:
+          element: "title"
+          help: Shown at the top of the page, in links to the page, and in the title bar.
+          label: Page Title
+          placeholder: Cool Page
+
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          help: Shown at the top of the page, in links to the page, and in the title bar.
+          label: Page Title
+          placeholder: Cool Page
+
+    _protocols:
+      - name: "title"
+        field:
+          element: "text"
+          help: Shown at the top of the page, in links to the page, and in the title bar.
+          label: Page Title
+          placeholder: Cool Page
+      - name: "slug"
+        field:
+          element: "text"
+          help: Becomes the part of this protocol's url. This example would become http://bioart.space/protocols/squid
+          label: Slug
+          placeholder: squid
+      - name: "data"
+        field:
+          element: "checkbox"
+          help: Enable data collection?
+          label: Data
+          placeholder: true

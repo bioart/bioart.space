@@ -1,0 +1,7 @@
+<h4>Recent Posts:</h4>
+
+{% for post in paginator.posts %}
+  {% include post.html post=post %}
+{% endfor %}
+
+{% include pagination.html %}

@@ -1,0 +1,21 @@
+---
+permalink: "css/style.css"
+---
+
+@import "bootstrap";
+@import "highlight";
+@import "filetype";
+
+a, header a h1 {
+  font-family: $font-family-sans-serif !important;
+}
+
+header a h1 {
+  color: $text-color
+}
+
+footer {
+  // font-family: $font-family-serif;
+  font-size: $font-size-small;
+  font-style: italic;
+}

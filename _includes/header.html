@@ -1,0 +1,15 @@
+<header id="info" class="container">
+  <a href="/">
+    {% if site.logo %}
+      <img class="img-responsive pull-left" src="{{ site.logo }}" alt="microscope logo" width="100px" />
+    {% endif %}
+    
+    <h1>{{site.title}}</h1>
+  </a>
+
+  {% if site.bio %}
+    {{ site.bio | markdownify }}
+  {% endif %}
+
+  {% include nav.html %}
+</header>
