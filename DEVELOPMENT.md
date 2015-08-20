@@ -1,6 +1,6 @@
 # bioart.space development
 
-This website is built automatically by Github Pages using [Jekyll](http://jekyllrb.com/).
+This website is built automatically and deployed to s3 by [static-publisher](https://github.com/amonks/static-publisher) using the edge version of [Jekyll](http://jekyllrb.com/).
 
 ## CSS
 
