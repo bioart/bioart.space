@@ -73,12 +73,12 @@ defaults:
       type: protocols
     values:
       layout: "default"
-      permalink: /protocols/:title/
+      permalink: /protocols/:slug/
   - scope:
       type: artists
     values:
       layout: "default"
-      permalink: /artists/:title/
+      permalink: /artists/:slug/
 
 # set up collections
 collections:
@@ -111,6 +111,7 @@ prose:
     - /css
     - /images
     - .gitignore
+    - DEVELOPMENT.md
     - favicon.ico
     - CNAME
     - Gemfile
