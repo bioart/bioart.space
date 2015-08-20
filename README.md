@@ -17,7 +17,7 @@ This is the SAIC BioArt website.
 
 ## Editing
 
-### github
+### GitHub
 
 This website is hosted in a [repository on GitHub](https://github.com/bioart/bioart.space).
 
@@ -50,10 +50,8 @@ Add something like the following to the content's `raw metadata` (click the hori
 
 ```yml
 files:
-    -
-        title: important image
-        url: media/some.jpg
-    -
-        title: important document
-        url: https://www.ieee.org/documents/ieeecopyrightform.doc
+    - title: important image
+      url: media/some.jpg
+    - title: important document
+      url: https://www.ieee.org/documents/ieeecopyrightform.doc
 ```
