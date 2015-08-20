@@ -6,4 +6,4 @@ title: Paul Vanouse
 
 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Paul Vanouse is an artist working in Emerging Media forms. Radical interdisciplinarity and impassioned amateurism guide his practice.
