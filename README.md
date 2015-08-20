@@ -66,3 +66,5 @@ files:
     - title: important document
       url: https://www.ieee.org/documents/ieeecopyrightform.doc
 ```
+
+Or, simply add a link to the file to your post.
