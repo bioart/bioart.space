@@ -1,6 +1,6 @@
 ---
 slug: ""
-published: false
+published: true
 title: Kathy High
 ---
 
