@@ -38,6 +38,10 @@ You'll be primarily working in these folders:
 
 Create a new file in any of these folders to get started.
 
+### Adding To The Navigation Bar
+
+The links in the navigation bar are generated from data within [_config.yml](https://github.com/bioart/bioart.space/blob/master/_config.yml#L34). You can edit it from prose.io.
+
 ### Working With Images
 
 Drag-and-drop an image right onto the editing window to insert it.
