@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+gem 'jekyll', '2.4.0'
 gem 'guard'
 gem 'guard-livereload'
