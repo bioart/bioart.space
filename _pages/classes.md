@@ -2,8 +2,5 @@
 permalink: /classes/
 title: Classes
 ---
-<ul>
-  <li>
-    <a href="classes/intro/">Intro</a>
-  </li>
-</ul>
+*   [Intro](/classes/intro)
+<!-- *   [Another Class](/classes/another) -->
