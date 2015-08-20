@@ -25,7 +25,7 @@ To edit it or add new content, you *do not* need to use Git or GitHub directly, 
 
 ### prose.io
 
-Once you have a github account, you should edit the website using [prose.io](http://prose.io/). Obama uses it too for so you know it's legit.
+Once you have a github account, you should edit the website using [prose.io](http://prose.io/). Obama uses it too so you know it's legit.
 
 ### Website Structure
 
