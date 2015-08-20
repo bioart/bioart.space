@@ -1,19 +1,20 @@
-
-## Contents
-
-- [Editing](#editing)
-    - [github](#github)
-    - [prose.io](#proseio)
-    - [Website Structure](#website-structure)
-    - [Working With External Files](#working-with-external-files)
-
-<!-- end toc 3 -->
-
 # bioart.space
 
 This is the SAIC BioArt website.
 
-<!-- toc -->
+
+## Contents
+
+- [Editing](#editing)
+    - [GitHub](#github)
+    - [prose.io](#proseio)
+    - [Website Structure](#website-structure)
+        - [Example: Classses](#example-classses)
+    - [Adding To The Navigation Bar](#adding-to-the-navigation-bar)
+    - [Working With Images](#working-with-images)
+    - [Working With Other Files](#working-with-other-files)
+
+<!-- end toc 3 -->
 
 ## Editing
 
