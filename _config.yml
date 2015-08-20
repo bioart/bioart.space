@@ -57,6 +57,8 @@ url: "http://bioart.space"
 # this is used for data storage on various protocols
 firebase: https://bioart.firebaseio.com
 
+gems: [jekyll-paginate]
+
 baseurl: ""
 markdown: redcarpet
 highlighter: pygments
@@ -73,12 +75,12 @@ defaults:
       type: protocols
     values:
       layout: "default"
-      permalink: /protocols/:slug/
+      permalink: /protocols/:title/
   - scope:
       type: artists
     values:
       layout: "default"
-      permalink: /artists/:slug/
+      permalink: /artists/:title/
 
 # set up collections
 collections:

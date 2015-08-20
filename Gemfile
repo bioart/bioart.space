@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
-gem 'jekyll', '2.4.0'
+gem 'jekyll', git: 'https://github.com/jekyll/jekyll'
 gem 'guard'
 gem 'guard-livereload'
+gem 'jekyll-paginate'
+gem 'redcarpet'
