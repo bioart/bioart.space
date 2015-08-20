@@ -133,6 +133,17 @@ prose:
           help: Becomes the part of this artist's url. This example would become http://bioart.space/artists/hdh
           label: Slug
           placeholder: hdh
+      - name: "files"
+        field:
+          element: "textarea"
+          help: yml-formatted list of external files to link to
+          label: Files
+          value: |
+            files:
+              - title: important image
+                url: media/some.jpg
+              - title: important document
+                url: https://www.ieee.org/documents/ieeecopyrightform.doc
 
     _pages:
       - name: "permalink"
@@ -155,6 +166,17 @@ prose:
           help: Shown at the top of the page, in links to the page, and in the title bar.
           label: Page Title
           placeholder: Cool Page
+      - name: "files"
+        field:
+          element: "textarea"
+          help: yml-formatted list of external files to link to
+          label: Files
+          value: |
+            files:
+              - title: important image
+                url: media/some.jpg
+              - title: important document
+                url: https://www.ieee.org/documents/ieeecopyrightform.doc
 
     _protocols:
       - name: "title"
@@ -175,3 +197,14 @@ prose:
           help: Enable data collection?
           label: Data
           placeholder: true
+      - name: "files"
+        field:
+          element: "textarea"
+          help: yml-formatted list of external files to link to
+          label: Files
+          value: |
+            files:
+              - title: important image
+                url: media/some.jpg
+              - title: important document
+                url: https://www.ieee.org/documents/ieeecopyrightform.doc
