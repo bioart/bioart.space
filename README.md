@@ -38,6 +38,12 @@ You'll be primarily working in these folders:
 
 Create a new file in any of these folders to get started.
 
+#### Example: Classses
+
+One thing you might want to do is create pages for various classes taught in the BioArt lab. I've started it off by creating a page with a list of classes in `/_posts/classes.md`, and a class page in `/_posts/classes/intro.md`.
+
+You can imagine how this page-creation model can be adapted to other situations as well.
+
 ### Adding To The Navigation Bar
 
 The links in the navigation bar are generated from data within [_config.yml](https://github.com/bioart/bioart.space/blob/master/_config.yml#L34). You can edit it from prose.io.
