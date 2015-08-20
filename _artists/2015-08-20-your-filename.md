@@ -1,8 +1,9 @@
 ---
-slug: ""
+slug: kathy
 published: true
 title: Kathy High
 ---
+
 
 ## Kathy High
 
