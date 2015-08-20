@@ -21,7 +21,7 @@ This is the SAIC BioArt website.
 
 This website is hosted in a [repository on GitHub](https://github.com/bioart/bioart.space).
 
-To edit it or add new content, you *do not* need to use Git or GitHub directly, but you *do* need a GitHub account. You also need to be a member of the bioart organization. You can [create an account here](https://github.com/join). (To add new data to a protocol, you do not need a GitHub account).
+To edit it or add new content, you *do not* need to use Git or GitHub directly, but you *do* need a GitHub account. You also need to be a member of the [bioart](http://github.com/bioart) GitHub organization. You can [create an account here](https://github.com/join). (To add new data to a protocol, you do not need a GitHub account).
 
 ### prose.io
 
