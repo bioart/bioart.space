@@ -113,6 +113,7 @@ prose:
     - /css
     - /images
     - .gitignore
+    - .jekyll-metadata
     - DEVELOPMENT.md
     - favicon.ico
     - CNAME
